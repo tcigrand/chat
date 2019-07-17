@@ -1,0 +1,12 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app",
+  "scripts": {
+    "test": "cd chat-app && npm test",
+    "start:server": "cd server && npm start",
+    "start:ui": "cd chat-app && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
