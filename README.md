@@ -1,5 +1,7 @@
 ## To run the application
 
+**This requires Node, if you don't have it installed, first install from https://nodejs.org/en/download/**
+
 1. Open a terminal/command prompt window
 2. Run `npm run install-deps`
 3. Run `npm run start:ui`
