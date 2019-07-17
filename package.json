@@ -5,7 +5,8 @@
   "scripts": {
     "test": "cd chat-app && npm test",
     "start:server": "cd server && npm start",
-    "start:ui": "cd chat-app && npm start"
+    "start:ui": "cd chat-app && npm start",
+    "install-deps": "cd chat-app && npm install && cd ../server && npm install"
   },
   "author": "",
   "license": "ISC"
