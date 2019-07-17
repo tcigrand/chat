@@ -46,7 +46,9 @@ In the React app, I've tested that all components at least render correctly. I'v
 
 #### Things I would like to change about the UI/FE
 
-I would like to make it so a user properly receives a chat without having to have the corresponding chat window open. Currently, the FE is receiving every chat between every user, regardless of who is currently logged in. Obviously, this is not ideal and I have some thoughts about how I would go about fixing that. I briefly describe the approach in the Server section below.
+I would like to make it so a user properly receives a chat without having to have the corresponding chat window open.
+
+Currently, the FE is receiving every chat between every user, regardless of who is currently logged in. Obviously, this is not ideal and I have some thoughts about how I would go about fixing that. I briefly describe the approach in the Server section below.
 
 I would also like to clean up the Chat component a bit. I think I could split the component up into two separate components, one that displays messages and one that sends messages.
 
