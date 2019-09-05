@@ -1,0 +1,14 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    ports:
+     - "8000:8000"
+    volumes:
+      - ./server:/usr/src/app
+  ui:
+    build: ./chat-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./chat-app:/usr/src/chat-app
